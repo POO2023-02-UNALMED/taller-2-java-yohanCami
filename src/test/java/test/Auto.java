@@ -14,7 +14,7 @@ public class Auto {
 		
 		int num_asientos = 0;
 		
-		for (int i = 0; i <= 3; i++) {
+		for (int i = 0; i <= asientos.length; i++) {
 			
 		    if(this.asientos[i] != null) {
 		    	num_asientos++;
@@ -28,7 +28,7 @@ public class Auto {
 		
 		if (this.registro == motor.registro) {
 			
-			for (int i = 0; i <= 3; i++) {
+			for (int i = 0; i <= asientos.length; i++) {
 				
 			    if(this.asientos[i].registro != this.registro) {
 			    	return "Las piezas no son originales";
