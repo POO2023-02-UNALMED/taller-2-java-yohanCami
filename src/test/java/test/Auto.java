@@ -16,7 +16,7 @@ public class Auto {
 		
 		for (int i = 0; i <= 3; i++) {
 			
-		    if(asientos[i] != null) {
+		    if(this.asientos[i] != null) {
 		    	num_asientos++;
 		    }
 		}
