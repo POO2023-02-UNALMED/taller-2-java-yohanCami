@@ -15,8 +15,6 @@ public class Motor {
 	
 		if(tipo == "electrico" || tipo == "gasolina") {
 			this.tipo = tipo;
-		} else {
-			System.out.println("Este valor de tipo no está permitido");
 		}
 		
 	}
